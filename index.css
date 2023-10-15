@@ -1,0 +1,93 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+body{
+  font-family: Arial;
+  background-color: beige;
+  height: 100vh;
+  background: url(https://www.corvsport.com/wp-content/uploads/2020/06/37199.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+ul{
+  position: absolute;
+  margin-top: 150px;
+  list-style: none;
+  top: 50px;
+  width: 100%;
+}
+li {
+  margin-left: 15px;
+}
+.ico ion-icon{
+  width: 30px;
+  font-size: 30px;
+}
+input[type="checkbox"]{
+  display: none;
+}
+input[type="checkbox"]:checked ~nav{
+  transform: translateX(250px);
+}
+nav{
+  position: absolute;
+  background-color: rgba(16, 16, 16, .5);
+  width: 250px;
+  left: -250px;
+  transition: all .9s;
+  opacity: 0.8;
+  height: calc(100vh - 106px);
+  overflow-y: auto;
+}
+img{
+  position: relative;
+  height: 100px;
+  max-width: 100px;
+  border-radius: 100px;
+  margin-top: 60px;
+}
+a{
+  display: block;
+  padding: 15px 5px;
+  color: white;
+  font-weight: bold;
+  font-style: normal;
+}
+a:hover{
+  background-color: #f8b248;;
+  color: black;
+  font-style: italic;
+  border-radius: 10px 0 0 10px;
+}
+label{
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  align-items: flex-end;
+}
+.card {
+  transform: rotateY(10deg);
+  perspective: 200px;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+}
+h3{
+  margin-left: 80px;
+  color: #000000;
+  margin: 1;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 800;
+}
+h3 span{
+  color: #5573f7;
+}
+h2{
+  color: #5573f7;
+}
